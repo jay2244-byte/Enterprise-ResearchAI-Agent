@@ -7,6 +7,14 @@ Production-style web application for autonomous enterprise research. Given any h
 
 ---
 
+## Dedicated Technical Documentation
+
+- 📐 **[ARCHITECTURE_DIAGRAM.md](ARCHITECTURE_DIAGRAM.md)**: System Architecture, Component Interfaces & 11-Stage Sequence Flow.
+- 📘 **[TECHNICAL_DOCUMENTATION.md](TECHNICAL_DOCUMENTATION.md)**: Module Specs, Non-LLM Reliability Formula, Q&A Algorithm & REST API Endpoints.
+- 🗄️ **[DATABASE_ER_DIAGRAM.md](DATABASE_ER_DIAGRAM.md)**: Database ER Diagram (Mermaid), Table Schemas & Traceability Foreign Key Constraints.
+
+---
+
 ## 1. Project Overview
 
 The **Enterprise AI Research Agent** does NOT rely on single LLM prompts or static mock responses. It executes an 11-stage pipeline:
