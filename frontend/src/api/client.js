@@ -1,4 +1,16 @@
-const API_BASE = (import.meta.env.VITE_API_BASE_URL || '/api').replace(/\/+$/, '');
+function getApiBase() {
+  let envUrl = (import.meta.env.VITE_API_BASE_URL || '/api').trim();
+  envUrl = envUrl.replace(/\/+$/, '');
+  
+  if (envUrl.startsWith('http')) {
+    if (!envUrl.endsWith('/api')) {
+      envUrl = `${envUrl}/api`;
+    }
+  }
+  return envUrl;
+}
+
+const API_BASE = getApiBase();
 
 export async function fetchJson(endpoint, options = {}) {
   const url = `${API_BASE}${endpoint}`;
