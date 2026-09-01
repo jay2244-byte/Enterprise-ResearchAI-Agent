@@ -1,5 +1,8 @@
 # Enterprise AI Research Agent
 
+> **Built by**: Jay Beedkar  
+> **Contact**: [jayudict@gmail.com](mailto:jayudict@gmail.com)
+
 Production-style web application for autonomous enterprise research. Given any high-level research question, the agent independently plans research subtopics, searches public web/academic repositories (DuckDuckGo, Wikipedia, ArXiv), evaluates source reliability via deterministic scoring rules, extracts structured findings with verbatim evidence quotes, compares multi-source perspectives, detects contradictions, synthesizes executive conclusions, and provides complete **Traceable Evidence Lineage (Conclusion → Findings → Evidence → Sources)** alongside grounded **Research Interrogation Q&A** and a persistent **Knowledge Base**.
 
 ---
